@@ -17,7 +17,7 @@ I chose to base this project onto a small SQLite database mainly because that wa
 Multithreading has been achieved by using *Callable* and *Runnable* objects.
 
 ## Issues
-After delivering the project, I found out that RMI itself already creates a new thread for each connection. This means, that in my code I create a new thread for each RMI thread and this is definitely not the right way to do things.
+After delivering the project, I found out that RMI itself already creates a new thread for each connection. In my code, I create a new thread for each RMI thread and this is definitely not the right way to do things.
 
 Anyway, it's a great example of what you can do with Java and multithread, so I won't fix it.
 
